@@ -38,7 +38,6 @@ all_status.forEach((status) => {
 
 function dragOver(e) {
   e.preventDefault();
-  //   console.log("dragOver");
 }
 
 function dragEnter() {
@@ -57,7 +56,7 @@ function dragDrop() {
   console.log("dropped");
 }
 
-/* modal */
+
 const btns = document.querySelectorAll("[data-target-modal]");
 const close_modals = document.querySelectorAll(".close-modal");
 const overlay = document.getElementById("overlay");
@@ -85,7 +84,7 @@ window.onclick = (event) => {
   }
 };
 
-/* create todo  */
+
 const todo_submit = document.getElementById("todo_submit");
 
 todo_submit.addEventListener("click", createTodo);
