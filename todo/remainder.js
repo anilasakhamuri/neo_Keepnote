@@ -1,5 +1,5 @@
 showNotes();
-let notesObj;
+var notesObj;
 
 // If user adds a note, add it to the localStorage
 let addBtn = document.getElementById("addBtn");
