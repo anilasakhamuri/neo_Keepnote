@@ -1,11 +1,11 @@
 const todos = document.querySelectorAll(".todo");
 const all_status = document.querySelectorAll(".status");
-var  all_notes;
-var  note_title;
-var note_content ;
+const  all_notes;
+const  note_title;
+const note_content ;
 
-var item_key ;
-var data;
+const item_key ;
+const data;
 let draggableTodo = null;
 
 todos.forEach((todo) => {
