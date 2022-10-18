@@ -1,8 +1,8 @@
 const todos = document.querySelectorAll(".todo");
 const all_status = document.querySelectorAll(".status");
-let  all_notes;
-let  note_title;
-let note_content ;
+var  all_notes;
+var  note_title;
+var note_content ;
 
 let item_key ;
 let data;
