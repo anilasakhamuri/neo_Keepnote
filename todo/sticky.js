@@ -1,3 +1,9 @@
+var all_notes;
+var note_title;
+var item_key ;
+var dat;
+var  note_content;
+
 $(document).ready(function () {
     all_notes = $("li a");
   
