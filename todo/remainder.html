@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>Notes</title>
+    <style>
+    #color1 {
+        flex: 1;
+        background: #e58e26;
+        color:#e58e26;
+    }
+      
+    #color2 {
+        flex: 1;
+        background: #f9b4ab;
+        color: #f9b4ab;
+    }
+      
+    #color3 {
+        flex: 1;
+        background: #B1FB17;
+        color: #B1FB17;
+    }
+      
+    #color4 {
+        flex: 1;
+        background: #78e08f;
+        color: #78e08f;
+    }
+      
+    #color5 {
+        flex: 1;
+        background: #fd79a8;
+        color: #fd79a8;
+    }
+    </style>
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+  
+    <script src=
+"https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity=
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+    </script>
+      
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity=
+"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous">
+    </script>
+      
+    <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity=
+"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+    </script>
+</head>
+  
+<body>
+    
+    
+    <div  class="navbar" style="background-color:rgb(7, 7, 7) ">
+        <div>
+            <a onclick="bgchange(id)" id="color1"> #e58e26</a>
+            <a onclick="bgchange(id)" id="color2"> #f9b4ab</a>
+            <a onclick="bgchange(id)" id="color3"> #B1FB17</a>
+            <a onclick="bgchange(id)" id="color4"> #78e08f</a>
+            <a onclick="bgchange(id)" id="color5"> #fd79a8</a>
+        </div>
+            <p style="font-size: 30px;color: aliceblue;">
+                SET REMAINDERS TO YOUR NOTES
+            </p>
+                <a href="index.html" class="btn btn-primary" 
+                    id="remBtn" style=
+                    "background-color:aliceblue;text-align:right;color:black">
+                    home
+                </a>
+            </div>
+  
+    <div class="container my-3">
+        
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Add a Note
+                  
+                </h5>
+                <div class="form-group">
+                    <textarea class="form-control" 
+                        id="addTxt" rows="3">
+                    </textarea>
+                </div>
+                <button class="btn btn-primary" 
+                    id="addBtn" style=
+                    "background-color:rgb(17, 18, 17)">
+                    Add Note
+                </button>
+                <a href="clock.html" class="btn btn-primary" 
+                    id="remBtn" style=
+                    "background-color:rgb(17, 18, 17)">
+                    Add remainder
+            </a>
+
+            </div>
+        </div>
+        <hr>
+        <h1>Your Notes</h1>
+        <hr>
+          
+        <div id="notes" class=
+            "row container-fluid"> 
+        </div>
+    </div>
+  
+    <script src="remainder.js"></script>
+</body>
+
+</html>
