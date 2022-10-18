@@ -98,7 +98,7 @@ function createTodo() {
   todo_div.classList.add("todo");
   todo_div.setAttribute("draggable", "true");
 
-  /* create span */
+
   const span = document.createElement("span");
   const span_txt = document.createTextNode("\u00D7");
   span.classList.add("close");
@@ -111,7 +111,7 @@ function createTodo() {
   span.addEventListener("click", () => {
     span.parentElement.style.display = "none";
   });
-  //   console.log(todo_div);
+ 
 
   todo_div.addEventListener("dragstart", dragStart);
   todo_div.addEventListener("dragend", dragEnd);
