@@ -1,8 +1,8 @@
-var all_notes;
-var note_title;
-var item_key ;
-var dat;
-var  note_content;
+const all_notes;
+const note_title;
+const item_key ;
+const data;
+const  note_content;
 
 $(document).ready(function () {
     all_notes = $("li a");
