@@ -72,7 +72,12 @@ select {
     top: 4px;
 }
 
-.alarm-active,
+.alarm-active
+{ background-color: #0006;
+    padding: 20px;
+    border-radius: 50px;
+}
+    
 .alarm-add-new {
     background-color: #0006;
     padding: 20px;
