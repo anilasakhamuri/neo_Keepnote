@@ -116,7 +116,7 @@ setInterval(function () {
 }, 1000)
 
 setInterval(function () {
-    if ( playing_sound && playing_sound != "0") {
+    if ( playing_sound != "0") {
         alarm_sound.play()
     }
 }, 7000)
