@@ -1,5 +1,5 @@
-let todos = document.querySelectorAll(".todo");
-let all_status = document.querySelectorAll(".status");
+const todos = document.querySelectorAll(".todo");
+const all_status = document.querySelectorAll(".status");
 let  all_notes;
 let  note_title;
 let note_content ;
